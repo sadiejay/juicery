@@ -18,6 +18,7 @@ function About() {
      <Info></Info>
 
 
+
      <h2>Meet the Team</h2>
       <section className='meetTeamSection'>
         <div className='profileCard'>
@@ -41,6 +42,7 @@ function About() {
           <p>Front End Developer</p>
         </div>
       </section>
+
 
      </div>
 
