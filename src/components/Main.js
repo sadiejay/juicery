@@ -16,7 +16,7 @@ import areas from '../data/healthAreas.js';
 
 // import styles
 import '../App.scss';
-import styles from './Main.module.scss';
+import './Main.scss';
 
 /*
 This component is rendered by the App component, it includes:
@@ -48,11 +48,11 @@ function Main() {
   });
 
   return (
-    <main className={styles.home}>
+    <main className="home">
       <div className='custom-search'>
         <input type='text' placeholder='Search..' />
       </div>
-      <div className={styles.healthCardSection}>
+      <div className="healthCardSection">
         <ul>{healthComponents}</ul>
         <Outlet />
       </div>
