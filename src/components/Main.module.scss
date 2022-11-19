@@ -1,0 +1,29 @@
+@mixin navListFlex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    background-color: green;
+
+     .healthCardSection {
+            background-color: red;
+            @include navListFlex;
+            flex-flow: row wrap;
+            ul {
+                @include navListFlex;
+                width: 50%;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+}
