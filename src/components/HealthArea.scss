@@ -42,6 +42,14 @@
     margin: 60px 0;
 }
 
+.juiceSection ul li {
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+}
+
 .juiceSection ul li a img {
     /* max-width: 75%; */
     max-width: 100%;

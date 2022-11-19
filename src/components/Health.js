@@ -9,7 +9,7 @@ This component is rendered in Main.js -- a list of these components make up the 
 function Health(props) {
 
   return (
-    <div className='health-area-card'>
+    <div className='health-area-card grow'>
       <img
         src={props.imageSource}
         className='App-logo'

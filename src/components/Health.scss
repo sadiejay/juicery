@@ -8,4 +8,11 @@
     flex-direction: column;
     border: 2px black solid;
     margin: 40px;
+    &.grow {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 }

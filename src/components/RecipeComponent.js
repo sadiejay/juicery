@@ -1,5 +1,6 @@
 import { useParams, Link, Outlet } from 'react-router-dom';
 import recipes from '../data/recipes';
+import './RecipeComponent.scss';
 
 // Juice Name webpage with details of juice recipe, img and blurb
 //MacBook Air - healtharea.html/juice-name wireframe
@@ -25,20 +26,20 @@ function RecipeComponent() {
   }
 
   return (
-    <section>
-      <section>
-        <section>
-          <h1>{targetRecipe.juiceName}</h1>
+    <section className='targetRecipeComp'>
+      <section className='targetRecipeSection'>
+        <section className='targetRecipeCard'>
+          <h3>{targetRecipe.juiceName}</h3>
           <img
             alt={`${targetRecipe.juiceName} juice - by Sierra`}
             src={targetRecipe.imageSource}
           />
         </section>
-        <section>
+        <section className='ingredientList'>
           <ul>{ingredientListItems}</ul>
         </section>
       </section>
-      <section>
+      <section className='healthBenefits'>
         <h4>Potential Health Benefits</h4>
         <p>{targetRecipe.healthBenefits}</p>
       </section>

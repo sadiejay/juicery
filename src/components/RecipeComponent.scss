@@ -1,0 +1,23 @@
+.targetRecipeComp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.targetRecipeSection {
+    display: flex;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.targetRecipeCard {
+    // width: ;
+    flex-basis: 50%;
+}
+
+
+.healthBenefits {
+    margin: 40px 0;
+}
+
