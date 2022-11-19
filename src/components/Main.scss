@@ -17,14 +17,23 @@
             flex-flow: row wrap;
             ul {
                 @include navListFlex;
-                width: 50%;
+                flex-flow: row wrap;
 
                 li {
                     list-style-type: none;
+                    max-width: 500px;
 
                     a {
                         text-decoration: none;
                         color: black;
+
+                        img {
+                            max-width: 75%;
+                        }
+                        p {
+                            font-size: 2rem;
+                            margin-top: -80px;
+                        }
                     }
                 }
             }

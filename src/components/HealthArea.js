@@ -25,9 +25,9 @@ function HealthArea() {
   });
 
   return (
-    <section>
+    <section className='juiceSection'>
       <ul>{juiceRecipes}</ul>
-      <Outlet />
+      {/* <Outlet /> */}
     </section>
   );
 }
