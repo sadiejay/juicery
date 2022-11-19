@@ -1,0 +1,26 @@
+.targetRecipeComp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.targetRecipeSection {
+    display: flex;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.targetRecipeCard {
+    flex-basis: 50%;
+}
+
+        h3 {
+            font-size: 2rem;
+            text-decoration: underline #B5D476 4px;
+        }
+
+.healthBenefits {
+    margin: 40px 0;
+}
+

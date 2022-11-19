@@ -3,7 +3,7 @@ function Juice(props) {
 
 
   return (
-    <div>
+    <div className="juiceCard">
       <img
         src= {props.details.imageSource}
         alt="juice"
