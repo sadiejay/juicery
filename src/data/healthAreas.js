@@ -2,11 +2,11 @@
 import HealthArea from './HealthAreaClass.js';
 
 // import images
-import gut from '../images/gut.jpg';
-import heart from '../images/heart.jpg';
-import skin from '../images/skin.jpg';
-import brain from '../images/brain.png';
-import colon from '../images/colon.jpeg';
+import gut from '../images/gut-icon.jpeg';
+import heart from '../images/heart-icon.jpg';
+import skin from '../images/skin-icon.jpg';
+import brain from '../images/brain-icon.jpg';
+import colon from '../images/colon-icon.jpg';
 
 // imports juice recipes to match recipes with health areas
 import juices from './recipes.js';
