@@ -1,6 +1,7 @@
 import { useParams, Link, Outlet } from 'react-router-dom';
 import healthAreas from '../data/healthAreas.js';
 import Juice from './Juice.js';
+import './HealthArea.scss';
 
 /*
 This component renders when a user clicks on one of the health area components on the home page.
