@@ -6,10 +6,13 @@
 }
 
 .home {
-    background-color: green;
+    // background-color: blueviolet;
 
+    .custom-search {
+        display: none;
+    }
      .healthCardSection {
-            background-color: red;
+            // background-color: red;
             @include navListFlex;
             flex-flow: row wrap;
             ul {

@@ -37,7 +37,7 @@ function App() {
             </li>
           </ul>
         </nav>
-        <p>Match your vision of health with a delicious juice recipe to support your needs. </p>
+        <p>Match your vision of health with a delicious recipe to help you juice with intention.</p>
 
         {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
