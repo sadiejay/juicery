@@ -28,6 +28,10 @@ nav, footer {
 .tagline {
   font-size: 4rem;
   font-weight: 800;
+  margin:48px 0;
+  span {
+    text-decoration: underline #B5D476 4px;
+  }
 }
 
 footer {

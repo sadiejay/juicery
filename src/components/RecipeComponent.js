@@ -40,7 +40,7 @@ function RecipeComponent() {
         </section>
       </section>
       <section className='healthBenefits'>
-        <h4>Potential Health Benefits</h4>
+        <h3>Potential Health Benefits</h3>
         <p>{targetRecipe.healthBenefits}</p>
       </section>
     </section>

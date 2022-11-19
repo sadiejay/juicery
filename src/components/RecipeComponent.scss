@@ -12,10 +12,13 @@
 }
 
 .targetRecipeCard {
-    // width: ;
     flex-basis: 50%;
 }
 
+        h3 {
+            font-size: 2rem;
+            text-decoration: underline #B5D476 4px;
+        }
 
 .healthBenefits {
     margin: 40px 0;
