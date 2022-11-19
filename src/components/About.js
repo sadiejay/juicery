@@ -14,18 +14,7 @@ function About() {
      
      <h2>Meet the Team</h2>
 
-     <img />
-     <p>role</p>
-     <p>social media</p>
-     <img />
-     <p>role</p>
-     <p>social media</p>
-     <img />
-     <p>role</p>
-     <p>social media</p>
-     <img />
-     <p>role</p>
-     <p>social media</p>
+    
 
      </div>
    
