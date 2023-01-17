@@ -1,0 +1,67 @@
+.LogInContainer {
+    width: 100%;
+    min-height: 400px;
+    // outline: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.LogInContent {
+    // outline: red 2px dashed;
+    height: 500px;
+    width: 75%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 16px 0px #00000040, -10px -10px 16px 0px #F4F1F1;
+
+    a {
+        color: black;
+        font-weight: bold;
+    }
+
+    h2 {
+        // justify-items: start;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .signUpP {
+        position:relative;
+        bottom: 60px;
+    }
+}
+
+.LogInContent--form {
+    display: flex;
+    flex-flow: row wrap;
+    width:75%;
+    height: 275px;
+    input {
+        background: inherit;
+        width: 100%;
+        border: none;
+        border-bottom: #BBD381 4px solid;
+        margin-bottom: 35px;
+    }
+
+    button {
+        width: 100%;
+        background: #BBD381;
+        color: white;
+        font-weight: bold;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+}
+
+.forgotP {
+    text-align: right;
+    width: 100%;
+}
